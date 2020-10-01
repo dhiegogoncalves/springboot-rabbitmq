@@ -15,3 +15,6 @@ spring:
         producer: dl.producer.spring
       parking-lot:
         producer: pl.producer.spring
+    listener:
+      time-retry: 00 00 10 * * *
+      reprocessing-attempt: 5

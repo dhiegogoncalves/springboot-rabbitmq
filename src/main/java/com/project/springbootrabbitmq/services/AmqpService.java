@@ -5,5 +5,7 @@ import com.project.springbootrabbitmq.models.MessageQueue;
 public interface AmqpService {
     void sendToQueue(MessageQueue messageQueue);
 
-    void action(MessageQueue messageQueue);
+    void consumeQueue(MessageQueue messageQueue);
+
+    void resendToQueue();
 }
