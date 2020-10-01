@@ -1,6 +1,6 @@
 # SpringBoot-RabbitMQ
 
-> Exemplo de como trabalhar com RabbitMQ no Springboot.
+> Exemplo de como utilizar o RabbitMQ no Spring Boot.
 
 ## Dependencies
 
